@@ -8,6 +8,7 @@ public class Aplicacao {
 		// double x = 35;
 
 		float x = (float) 40.0;
+		
 	}
 
 }
