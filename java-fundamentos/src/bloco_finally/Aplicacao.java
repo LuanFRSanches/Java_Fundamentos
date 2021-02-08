@@ -1,7 +1,6 @@
 package bloco_finally;
 
-import checked_exceptions.SaldoInsuficienteException;
-import checked_exceptions.ValorNegativoException;
+
 
 public class Aplicacao {
 	public static void main(String[] args) throws Exception {
