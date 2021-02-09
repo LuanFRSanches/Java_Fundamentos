@@ -16,7 +16,12 @@ public class Aplicacao {
 
 		System.out.println(s1.equals(s2));
 
+		s2 = s2.concat(s3);
+		System.out.println(s2);
 		s2 = s2.toUpperCase();
 		s1 = s1.toLowerCase();
+		
+		System.out.println(s2);
+		System.out.println(s1);
 	}
 }
