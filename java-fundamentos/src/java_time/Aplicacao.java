@@ -23,6 +23,7 @@ public class Aplicacao {
 				System.out.println("Meses: " + p.toTotalMonths());
 	
 				System.out.println("Semanas: " + ChronoUnit.WEEKS.between(d1, d2));
+				System.out.println("Semanas: " + ChronoUnit.YEARS.between(d1, d2));
 	}
 
 }
