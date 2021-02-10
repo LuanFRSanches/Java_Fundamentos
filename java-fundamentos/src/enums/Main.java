@@ -13,6 +13,8 @@ public class Main {
 
 		String s = "TERCA";
 		DiaDaSemana.valueOf(s);
+		
+		Sexo sexo = Sexo.MASCULINO;
 
 	}
 
