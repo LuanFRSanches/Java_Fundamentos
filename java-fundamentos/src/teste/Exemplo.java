@@ -1,15 +1,15 @@
 package teste;
 
-public class Exemplo {
-	static void m(String s) {
-		s = s.concat("D");
+class Util {
+	public enum Status {
+		ATIVO, INATIVO, EXCLUIDO
 	}
+}
+
+public class Exemplo {
 
 	public static void main(String[] args) {
-		String s1 = "A"; 
-		String s2 = "B";
-		String s3 = "C";
-		m(s2);
-		System.out.print(s1 + s2 + s3);
+		Util.Status s = Util.Status.ATIVO;
 	}
+
 }

@@ -7,6 +7,8 @@ public class Main {
 		Integer i = 5;
 		i++;
 		System.out.println(i);
+		Integer s = new Integer(2);
+		System.out.println(s);
 
 	}
 
