@@ -1,4 +1,4 @@
-package equalshascode;
+package equals_hashcode;
 
 public class Produto {
 
@@ -46,9 +46,10 @@ public class Produto {
 		}
 		return false;
 	}
-@Override
-public int hashCode() {
 
+	@Override
+	public int hashCode() {
+		return String.valueOf(id).hashCode();
 
-}
+	}
 }
