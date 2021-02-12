@@ -1,15 +1,14 @@
 package file_copy;
 
-import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.OutputStream;
 
 public class Main {
 
-	public static void main(String[] args) throws FileNotFoundException {
+	public static void main(String[] args) throws IOException {
 		// FileInputStream fin = new FileInputStream("entrada.txt");
 		// FileOutputStream fout = new FileOutputStream("saida.txt");
 		// transfer(fin, fout);
@@ -24,14 +23,14 @@ public class Main {
 
 		FileInputStream fin = new FileInputStream("entrada.txt");
 		ByteArrayOutputStream bout = new ByteArrayOutputStream();
-		trasfer(fin, bout);
-		
+		transfer(fin, bout);
+
 		byte[] bytes = bout.toByteArray();
 		String s = new String(bytes);
 		System.out.println(s);
 	}
 
-	private static void transfer(InputStream in, OutOfMemoryError out) throws IOException {
+	private static void transfer(InputStream in, OutputStream out) throws IOException {
 		byte[] buffer = new byte[1024];
 
 		int bytesLidos;
