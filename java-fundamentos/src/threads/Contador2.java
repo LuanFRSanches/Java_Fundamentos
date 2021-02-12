@@ -1,4 +1,4 @@
-package theads;
+package threads;
 
 public class Contador2 implements Runnable {
 

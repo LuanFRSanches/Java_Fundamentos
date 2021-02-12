@@ -1,4 +1,4 @@
-package theads;
+package threads;
 
 public class Contador extends Thread {
 	@Override
