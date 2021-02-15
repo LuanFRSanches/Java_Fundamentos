@@ -1,3 +1,1 @@
-arquivo teste para leitura
-Linha 1
-Linha 2
+texto para ser gravado no arquivo

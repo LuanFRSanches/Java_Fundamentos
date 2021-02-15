@@ -9,7 +9,7 @@ import java.io.OutputStream;
 
 public class Main2 {
 
-	public static void main(String[] args) throws FileNotFoundException, IOException {
+	public static void main(String[] args) throws IOException   {
 		String inputFile = "entrada.txt";
 		String outputFile = "saida.txt";
 		
